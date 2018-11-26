@@ -4,7 +4,7 @@
     <div class="main-wrap">
       <LeftNav />
       <div class="right-content">
-         <router-view  />
+        <router-view />
       </div>
     </div>
   </div>
