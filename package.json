@@ -1,0 +1,56 @@
+{
+  "name": "multi-v2ray-admin",
+  "version": "0.1.0",
+  "description": "multi-v2ray 可视化后台操作界面",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roojay520/multi-v2ray-admin.git"
+  },
+  "keywords": [
+    "v2ray",
+    "admin"
+  ],
+  "author": "roojay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/roojay520/multi-v2ray-admin/issues"
+  },
+  "homepage": "https://github.com/roojay520/multi-v2ray-admin#readme",
+  "dependencies": {
+    "@types/js-md5": "^0.4.2",
+    "axios": "^0.18.0",
+    "element-ui": "^2.4.11",
+    "js-md5": "^0.7.3",
+    "normalize.css": "^8.0.1",
+    "nprogress": "^0.2.0",
+    "vue": "^2.5.17",
+    "vue-class-component": "^6.3.2",
+    "vue-property-decorator": "^7.2.0",
+    "vue-router": "^3.0.2",
+    "vuex": "^3.0.1",
+    "vuex-class": "^0.3.1"
+  },
+  "devDependencies": {
+    "@types/nprogress": "0.0.29",
+    "@types/webpack-env": "^1.13.6",
+    "@vue/cli-plugin-babel": "^3.1.1",
+    "@vue/cli-plugin-eslint": "^3.1.5",
+    "@vue/cli-plugin-typescript": "^3.1.1",
+    "@vue/cli-service": "^3.1.4",
+    "@vue/eslint-config-airbnb": "^4.0.0",
+    "@vue/eslint-config-typescript": "^3.1.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0-0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1",
+    "typescript": "^3.0.0",
+    "vue-template-compiler": "^2.5.17"
+  }
+}
