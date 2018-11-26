@@ -47,7 +47,7 @@ export default class TopHeader extends Vue {
   left: 0;
   width: 100%;
   z-index: 99;
-  height: 64px;
+  height: $h-header;
   font-size: 1.2em;
   color: $clr-white;
   background-color: #009688;
@@ -60,6 +60,6 @@ export default class TopHeader extends Vue {
   position: absolute;
   left: 1em;
   display: inline-block;
-  line-height: 64px;
+  line-height: $h-header;
 }
 </style>

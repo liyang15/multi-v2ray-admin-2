@@ -48,7 +48,7 @@ export default class LeftNav extends Vue {
 .left-nav {
   background-color: $clr-white;
   position: relative;
-  height: calc(100vh - 64px);
+  height: calc(100vh - $h-header);
   width: 10em;
   overflow: hidden;
   transition: width 0.5s;
