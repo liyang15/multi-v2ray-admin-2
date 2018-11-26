@@ -33,14 +33,14 @@ export default class Layout extends Vue {}
   padding-top: $h-header;
   overflow: hidden;
   width: 100%;
-  height: calc(100vh - $h-header -2em);
+  height: calc(100vh - #{$h-header} -2em);
 }
 .right-content{
   position: relative;
   overflow: auto;
   padding: 1em;
   width: 100%;
-  height: calc(100vh - $h-header - 2em);
+  height: calc(100vh - #{$h-header} - 2em);
   flex-grow: 1;
 }
 
